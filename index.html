@@ -6,7 +6,10 @@
     <title> nid</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
- 
+     <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/webgl_nid.json", {onProgress: UnityProgress});
+    </script>
    
   </head>
   <body>
